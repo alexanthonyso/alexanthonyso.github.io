@@ -12,8 +12,11 @@ nav, footer, h1, h2
 	font-family: 'Bebas Neue', cursive;
 }
 
-
 a:visited   
+{
+	color: black;
+}
+a
 {
 	color: black;
 }
@@ -154,3 +157,21 @@ footer p
 	display: flex;
 	justify-content: center;
 }
+
+
+/*MOBILE DEVICE FOOTER*/
+
+@media (max-device-width: 1000px)
+{
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+}
+
+
+
