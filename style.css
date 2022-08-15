@@ -1,7 +1,6 @@
 
 /*HTML*/
 
-
 body 
 {
 	margin: 0;  
@@ -16,11 +15,11 @@ a:visited
 {
 	color: black;
 }
+
 a
 {
 	color: black;
 }
-
 
 h2
 {
@@ -32,8 +31,6 @@ h2
 header
 {
 	margin-left: 22%;
-	display: flex;
-	justify-content: left;
 }
 
 /*NAVIGATION*/
@@ -110,9 +107,9 @@ p
 }
 
 
-/*Page.html*/
+/*Pages.html*/
 
-.col
+.center
 {
 	display: flex;
 	flex-direction: column;
@@ -172,6 +169,3 @@ footer
 }
 
 }
-
-
-
