@@ -1,0 +1,42 @@
+@media screen and (max-width: 992px) {
+
+main, header {
+    width: 100%;   
+}
+
+p {
+    font-size: 22px;
+}
+}
+
+@media screen and (max-device-width: 768px) {
+
+p {
+    font-size: 24px;
+}
+
+.actu {
+    padding-bottom: 5%;
+}
+    
+.float {
+    display: flex;
+    flex-direction: column;
+}
+
+.float p {
+    width: 100%;
+}
+
+.float_img {
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    padding: 2% 0 2% 0;
+}
+
+
+
+}

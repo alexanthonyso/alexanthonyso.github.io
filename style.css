@@ -1,42 +1,69 @@
 
 /*HTML*/
-
-body 
-{
-	margin: 0;  
-}
-
-nav, footer, h1, h2  
-{
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	font-family: 'Bebas Neue', cursive;
 }
 
-a:visited   
-{
+body{
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	width: 100%;
+}
+
+/*FONTS*/
+a:visited {
 	color: black;
 }
 
-a
-{
+a {
 	color: black;
 }
 
-h2
-{
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
 	display: flex;
 	justify-content: center;
 	color: black;
+	padding-top: 3%;
 }
 
-header
-{
-	margin-left: 22%;
+p {
+	font-size: 18px;
+	text-align: center; 
 }
+
+header {
+	width: 910px;
+}
+
+/*GLOBAL*/
+.center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	width: 910px;
+	padding: 4% 2% 10% 2%;
+}
+
 
 /*NAVIGATION*/
-
-nav ul
-{
+nav ul {
 	list-style-type: none; 
 	display: flex;
 	align-items: center;
@@ -45,127 +72,114 @@ nav ul
 	opacity: 0.8;
 	height: 30px;
 }
-nav ul a:visited
-{
+
+nav ul a:visited{
 	color: white; 
 }
-nav li
-{
+
+nav li {
 	margin: 0 7px; 
 }
 
-nav a
-{
+nav a {
 	color: white;
 	text-decoration: none; 
 
 }
 
-nav a:hover
-{
+nav a:hover {
 	background-color: #404040; 
 }
 
-/*SECTION*/
-
-section 
-{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-article
-{
-	margin: 10px; 
-}
-
-/*index.html*/
-
-.float 
-{
-	display: flex;
-	border-bottom: black 5px solid;
-	max-width: 1000px;
-}
-
-.main 
-{
-	display: flex;
-	justify-content: left;
-}
-
-.left
-{
-	text-align: left;
-	margin:  0 10px; 
-}
-
-p
-{
-	text-align: center; 
-}
-
-
-/*Pages.html*/
-
-.center
-{
+/*INDEX*/
+.actu {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: start;
+	border-bottom: 5px solid;
+	padding-bottom: 2%;
 }
 
-.largeur
-{
-	text-align: justify;
-	width: 50%;
+.float {
+	display: flex;
 }
 
-.largeur910 
-{
-	width: 910px;
+.float p {
+	width: 60%;
+	height: auto;
+	text-align: left;
+	padding: 3% 5% 5% 3%;
+}
+
+.float_img {
+	width: 40%;
+	height: auto;
+}
+
+.float img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/*ARTICLE*/
+.video_container {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 
 .screen
 {
+	height: 23.4%;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 0.5%;
+	padding-bottom: 3%;
+}
+
+.screen img {
+	width: 33%;
+	height: auto;
+}
+
+article p, article h2 {
+	margin-bottom: 3%;
+}
+
+#logo_gundam {
+	width: 100%;
+	margin-bottom: 3%;
 }
 
 
 /*FOOTER*/
-
-footer
-{
+footer {
+	width: 100%;
+	height: auto;
 	background-color: #272727;
-	height: 200px; 
-	padding-top: 10px; 
 	box-shadow: 0 0 5px;
+	padding-top: 10px; 
+	padding-bottom: 8%;
 }
 
-footer p
-{
+footer p {
 	color: white;
 }
 
-.footlogo
-{
+.footlogo {
 	display: flex;
 	justify-content: center;
 }
 
 
-/*MOBILE DEVICE FOOTER*/
-
-@media (max-device-width: 1000px)
-{
-
-footer
-{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-}
