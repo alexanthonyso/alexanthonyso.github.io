@@ -61,6 +61,10 @@ main {
 	padding: 4% 2% 10% 2%;
 }
 
+main ul {
+	font-size: 17px;
+}
+
 
 /*NAVIGATION*/
 nav ul {
