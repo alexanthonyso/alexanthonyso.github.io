@@ -15,6 +15,7 @@ body{
 	align-items: center;
 }
 
+
 nav {
 	width: 100%;
 }
@@ -46,8 +47,14 @@ p {
 }
 
 header {
-	width: 910px;
+	width: 100%;
 }
+
+#logo {
+	width: 910px;
+	margin: auto;
+}
+
 
 /*GLOBAL*/
 .center{

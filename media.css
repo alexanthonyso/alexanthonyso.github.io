@@ -1,10 +1,16 @@
 @media all and (max-width: 992px) {
 
-header {
+header nav {
+    width: 100%;
+   
+}
+
+#logo{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 
 main {
     width: 100%;   
