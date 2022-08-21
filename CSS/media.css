@@ -1,0 +1,77 @@
+@media all and (max-width: 992px) {
+
+header nav {
+    width: 100%;
+   
+}
+
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    width: 100%;   
+}
+
+
+p {
+    font-size: 22px;
+}
+
+
+nav ul {
+    height: 50px;
+    
+}
+nav a {
+    font-size: 30px ;
+}
+
+}
+
+
+
+@media all and (max-device-width: 768px) {
+    
+
+main ul{
+    font-size: 25px;
+}
+
+h2 {
+     font-size: 40px;
+}
+
+
+p {
+    font-size: 24px;
+}
+
+.actu {
+    padding-bottom: 5%;
+}
+    
+.float {
+    display: flex;
+    flex-direction: column;
+}
+
+.float p {
+    width: 100%;
+}
+
+.float_img {
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+    padding: 2% 0 2% 0;
+}
+
+
+
+}
